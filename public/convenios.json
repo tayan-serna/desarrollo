@@ -1,0 +1,171 @@
+[
+  {
+    "id": "001",
+    "nombre": "UNIDAD  RECREATIVA RINCON DE PACARÁ",
+    "contenido": "Entrada Gratis + 1 Acompañante",
+    "ubicacion": "Av 2GN 58N-100",
+    "telefono": "665-3948",
+    "tipo": "deporte"
+  },
+  {
+    "id": "002",
+    "nombre": "CHIPIFUTBOL 5",
+    "contenido": "DESCUENTO 10% Sabado-domingo-lunes $60.000 Martes a viernes 6pm a 7pm $70.000 Martes a viernes 8pm a 10pm $80.000 Lunes a viernes 8 a 5pm $40.000 (1 HORA) ",
+    "ubicacion": "Parqueadero Jumbo ChipiChape",
+    "telefono": "314 6641643",
+    "tipo": "deporte"
+  },
+  {
+    "id": "003",
+    "nombre": "LA CALDERA ",
+    "contenido": "TORNEO INTERNO: DÍA 45% NOCHE 30% FADP: DÍA 25% NOCHE 18% ",
+    "ubicacion": "Av 6 #30-67 6to piso La 14",
+    "telefono": "668 8286 314 8880595",
+    "tipo": "deporte"
+  },
+  {
+    "id": "004",
+    "nombre": "CERROS SPORT ",
+    "contenido": "TARIFAS ESPECIALES (DESCUENTOS)  EN LOS SERVICIOS ",
+    "ubicacion": "Av 6NORTE #28-35",
+    "telefono": "660 2801 311 3400631",
+    "tipo": "deporte"
+  },
+  {
+    "id": "005",
+    "nombre": "GYM NEW BODY PERFORMANCE ",
+    "contenido": "TARIFA $60.000",
+    "ubicacion": "AV 5B Norte #25-40  Calle 44 Norte #3AN-52 ",
+    "telefono": "6676842 6541902",
+    "tipo": "deporte"
+  },
+  {
+    "id": "006",
+    "nombre": "QUILOMBO ",
+    "contenido": "DESCUENTO 20% TARIFAS HORARIOS PRESTABLECIDOS",
+    "ubicacion": "Av Estación #5CN-26 ",
+    "telefono": "316 4811663 317 8530979",
+    "tipo": "deporte"
+  },
+  {
+    "id": "007",
+    "nombre": "TONY II ",
+    "contenido": "DESCUENTO 10% COMPRAS ALMACEN PRINCIPAL",
+    "ubicacion": "Calle 16A #15-25 ",
+    "telefono": "884 5343",
+    "tipo": "deporte"
+  },
+  {
+    "id": "008",
+    "nombre": "ZOOLÓGICO DE CALI",
+    "contenido": "DESCUENTO TARIFA ESPECIAL (10 PERSONAS)",
+    "ubicacion": "Cra 2 Oeste Calle 14 ",
+    "telefono": "892 74 74",
+    "tipo": "deporte"
+  },
+  {
+    "id": "009",
+    "nombre": "FUNDACIÓN SENTIR HUMANO",
+    "contenido": "DESCUENTO POR ACTIVIDADES",
+    "ubicacion": "Cll 5B3 BIS #38-21",
+    "telefono": "524 1930",
+    "tipo": "salud"
+  },
+  {
+    "id": "010",
+    "nombre": "BOCA NOSTRA DENTAL SPA",
+    "contenido": "DESCUENTO 10% TRATAMIENTOS DESCUENTO 25% ACLARAMIENTO",
+    "ubicacion": "Cra 66 #10A-82",
+    "telefono": "339 2988 318 6228585",
+    "tipo": "salud"
+  },
+  {
+    "id": "011",
+    "nombre": "OFTALASER",
+    "contenido": "TARIFAS ESPECIALES (DESCUENTOS)  EN LOS SERVICIOS",
+    "ubicacion": "Calle 28 Norte #6AN-17",
+    "telefono": "661 5628",
+    "tipo": "salud"
+  },
+  {
+    "id": "012",
+    "nombre": "CITY LENTES OPTICA",
+    "contenido": "DESCUENTO 15% PAGO EN EFECTIVO DESCUENTO 5% PAGO CON TARJETA",
+    "ubicacion": "Av 5Norte #23DN - 93 LOCAL 34",
+    "telefono": "390 8115 317 3815161",
+    "tipo": "salud"
+  },
+  {
+    "id": "013",
+    "nombre": "BODYBRITE",
+    "contenido": "PAQUETES DE BENEFICIOS EN LOS SERVICIOS",
+    "ubicacion": "Av 5Norte #23DN - 93 LOCAL 34",
+    "telefono": "390 8115 317 3815161",
+    "tipo": "salud"
+  },
+  {
+    "id": "014",
+    "nombre": "TEATRO DEL PRESAGIO",
+    "contenido": "DESCUENTO 10% TALLERES DESCUENTO 33% ENTRADAS EVENTOS",
+    "ubicacion": "AV 9AN #10N-50",
+    "telefono": "487 64 32",
+    "tipo": "cultura"
+  },
+  {
+    "id": "015",
+    "nombre": "ROMULO MONTES",
+    "contenido": "DESCUENTO 5% ESTUDIANTES DESCUENTO 10% FUNCIONARIOS DESCUENTO 20% ENSEÑANZA",
+    "ubicacion": "TODOS LOS PUNTO DE ATENCIÓN",
+    "telefono": "881 87 95",
+    "tipo": "apoyoacd"
+  },
+  {
+    "id": "016",
+    "nombre": "BELLA TELA",
+    "contenido": "DESCUENTO 5% (COMPRA TELAS-SERVICIO TALLE-CONFECCIÓN-COLCHONESTA Y SOFA CAMAS) DESCUENTO 10% COMPRA LINEA BELLA HOGAR-COMPRA PERSIANAS DESCUENTO 70% COMPRA ADORNOS PARA EL HOGAR",
+    "ubicacion": "TODOS LOS PUNTO DE ATENCIÓN",
+    "telefono": "486 6879",
+    "tipo": "apoyoacd"
+  },
+  {
+    "id": "017",
+    "nombre": "MANIQUÍES COLFIBRAS",
+    "contenido": "DESCUENTO 15%",
+    "ubicacion": "Cra 49 #13-63",
+    "telefono": "337 5991",
+    "tipo": "apoyoacd"
+  },
+  {
+    "id": "018",
+    "nombre": "PAPELARCA",
+    "contenido": "DESCUENTO 10%",
+    "ubicacion": "Calle 2 Oeste #1-44",
+    "telefono": "893 3463 893 7128",
+    "tipo": "apoyoacd"
+  },
+  {
+    "id": "019",
+    "nombre": "TECNIPEDIA",
+    "contenido": "DESCUENTO IMPRESIONES PAGO EN EFECTIVO",
+    "ubicacion": "Av 3Norte #8N-24 Edif Centenario I - Ofic 503",
+    "telefono": "888 0806 316 3396195",
+    "tipo": "apoyoacd"
+  },
+  {
+    "id": "020",
+    "nombre": "ALEYDA OSORIO",
+    "contenido": "DESCUENTO 10%  TELAS E INSUMOS DESCUENTO 5% INSUMOS MUÑEQUERIA DESCUENTO 20% REVISTA BIANCA",
+    "ubicacion": "TODOS LOS PUNTOS DE ATENCIÓN",
+    "telefono": "884 2611",
+    "tipo": "apoyoacd"
+  },
+  {
+    "id": "021",
+    "nombre": "TEJADITOS",
+    "contenido": "DESCUENTO 10%",
+    "ubicacion": "TODOS LOS PUNTOS DE ATENCIÓN",
+    "telefono": "524 1930",
+    "tipo": "otros"
+  }
+ 
+]

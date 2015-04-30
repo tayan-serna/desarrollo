@@ -1,0 +1,27 @@
+<div class="col-lg-12">
+    <h1>Contacto</h1>
+</div>
+<form class="form-horizontal" name="commentsForm" ng-submit="commentsForm.$valid && alertavalido()" novalidate >
+  <div class="form-group">
+    <label >Nombre</label>
+    <input ng-model="envia.nombre" type="text" class="form-control" id="" placeholder="Nombre" required>
+  </div>
+  <div  class="form-group" >
+    <label>Correo Electrónico</label>
+    <input ng-model="envia.email" type="email" class="form-control" id="" placeholder="Correo Electrónico" required>
+  </div>
+  <div class="form-group">
+    <label>Mensaje</label>
+    <textarea ng-model="envia.body" class="form-control" id="" placeholder="Ingresa tu texto"></textarea>  
+  </div>
+  <div class="checkbox">
+    <label>
+      <input ng-model="envia.tratamiento" type="checkbox"> he leído <a href="#">Tratamiento de Datos personales</a>
+    </label>
+  </div>
+  <br>
+  <button ng-disabled="!envia.tratamiento" type="submit" class="btn btn-default">Enviar</button>
+</form>
+<br>
+<div ng-if="!commentsForm.$valid" class="alert alert-danger"><p>Este fomrulario es invalido</p></div>
+<h2>Valid : {{commentsForm.$valid}} </h2>

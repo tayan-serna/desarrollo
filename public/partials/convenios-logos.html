@@ -1,0 +1,30 @@
+<article ng-controller="ConveniosController">
+	<div class="logos-convenios" >
+		<h2> {{convenio.name}} </h2>
+		<img src="img/convenios/{{convenio.nombre | lowercase}}.png" height="256" width="256" alt="">
+		<p>{{convenio.contenido}}</p>
+	</div>
+</article>
+
+<div ng-controller="PopoverDemoCtrl">
+    <div class="logos-convenios" >
+	    <h2>Convenio1</h2>
+	    <img src="img/convenios/convenio1.png" popover="{{dynamicPopover}}" popover-title="{{dynamicPopoverTitle}}" class="btn btn-default">
+	</div>
+	<div class="logos-convenios" >
+	    <h2>Convenio1</h2>
+	    <img src="img/convenios/convenio1.png" popover="{{dynamicPopover}}" popover-title="{{dynamicPopoverTitle}}" class="btn btn-default">
+	</div>
+	<div class="logos-convenios" >
+	    <h2>Convenio1</h2>
+	    <img src="img/convenios/convenio1.png" popover="{{dynamicPopover}}" popover-title="{{dynamicPopoverTitle}}" class="btn btn-default">
+	</div>
+	<div class="logos-convenios" >
+	    <h2>Convenio1</h2>
+	    <img src="img/convenios/convenio1.png" popover="{{dynamicPopover}}" popover-title="{{dynamicPopoverTitle}}" class="btn btn-default">
+	</div>
+	
+
+    
+
+</div>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="desarrollo">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Desarrollo Humano / Promovemos tu Bienestar</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll logo-top" href="#page-top">Desarrollo Humano <br> <em>Promovemos tus Bienestar</em></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#quees">¿Que es?</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#apoyo">Acompañamiento <br> Estudiantil</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#fechas">Fechas <br> Especiales</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#bienestar">Bienestar</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#entorno">Trabajo con <br> el entorno</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#convenios">Convenios</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#noticias">Noticias</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- INICIO -->
+    <section id="intro" class="section-home">
+        <!-- banner angular -->
+            
+            <div ng-controller="CarouselHomeCtrl">
+                <banner-angular></banner-angular>
+            </div>
+
+        <!-- banner angular -->
+    </section>
+    <!-- INICIO -->
+
+    <!-- QUE ES -->
+    <section id="quees" class="section-gray">
+        <div class="container">
+            <div class="row">
+                <quees-info></quees-info>
+            </div>
+        </div>
+    </section>
+     <!-- QUE ES -->
+
+    <!-- APOYO ESTUDIANTIL -->
+    <section id="apoyo" class="section-apoyos">
+        <div class="container">
+            <div class="row">
+                <apoyo-estudiantil></apoyo-estudiantil>
+            </div>
+        </div>
+    </section>
+    <!-- APOYO ESTUDIANTIL -->
+
+    <!-- FECHAS ESPECIALES -->
+    <section id="fechas" class="section-fechas">
+        <div class="container">
+            <div class="row">
+                <fechas-especiales></fechas-especiales>
+
+                <div ng-controller="CarouselFechasCtrl">
+                    <banner-angular></banner-angular>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FECHAS ESPECIALES -->
+
+    <!-- BIENESTAR -->
+    <section id="bienestar" class="section-bienestar">
+        <div class="container">
+            <div class="row">
+                <bienestar-estudiantil></bienestar-estudiantil>
+            </div>
+        </div>
+    </section>
+    <!-- BIENESTAR -->
+
+    <!-- BIENESTAR - DEPORTE Y RECREACION -->
+    <section id="deporte" class="section-deporte">
+        <div class="container">
+            <div class="row">
+                <bienestar-deporte-info></bienestar-deporte-info>
+
+            <div ng-controller="CarouselDeporCtrl">
+                <banner-angular></banner-angular>
+            </div>
+        </div>
+    </section>
+    <!-- BIENESTAR - DEPORTE Y RECREACION -->
+
+    <!-- BIENESTAR - SALUD -->
+    <section id="salud" class="section-salud">
+        <div class="container">
+            <div class="row">
+                <bienestar-salud-info></bienestar-salud-info>
+                
+                <div ng-controller="CarouselSaludCtrl">
+                    <banner-angular></banner-angular>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BIENESTAR - SALUD -->
+
+    <!-- BIENESTAR - CULTURA Y ARTISTICA -->
+    <section id="cultura" class="section-cultura">
+        <div class="container">
+            <div class="row">
+                <bienestar-cultura-info></bienestar-cultura-info>
+
+                <div ng-controller="CarouselCulturaCtrl">
+                    <banner-angular></banner-angular>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BIENESTAR - CULTURA Y ARTISTICA -->
+
+    <!-- TRABAJO CON EL ENTORNO -->
+    <section id="entorno" class="section-vecinos">
+        <div class="container">
+            <div class="row">
+                <trabajo-entorno></trabajo-entorno>
+
+                <div ng-controller="CarouselVecinosCtrl">
+                    <banner-angular></banner-angular>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TRABAJO CON EL ENTORNO -->
+
+    <!-- CONVENIOS -->
+    <section id="convenios" class="section-convenios" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Convenios</h1>
+                </div>
+    
+                <convenios-logos></convenios-logos>
+            </div>
+        </div>
+    </section>
+    <!-- CONVENIOS -->
+
+    <!-- NOTICIAS -->
+    <section id="noticias" class="section-noticias">
+        <div class="container">
+            <div class="row">
+                <noticias-desarrollo></noticias-desarrollo>  
+            </div>
+        </div>
+    </section>
+    <!-- NOTICIAS -->
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section-contacto">
+        <div class="container">
+            <div class="row" ng-controller="EnviaController">
+                <contacto-desarrollo></contacto-desarrollo>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACTO -->
+
+
+    
+
+    <!-- ANGULAR -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.1/angular.min.js"></script>
+    <!-- <script src="js/lib/angular-route.min.js"></script> -->
+    <script src="js/lib/ui-bootstrap-tpls-0.12.1.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/services.js"></script>
+    <!-- ANGULAR -->
+    
+
+
+    <!-- jQuery -->
+    <!-- <script src="js/lib/jquery.js"></script> -->
+    <!-- jQuery -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="js/lib/bootstrap.min.js"></script> -->
+
+    <!-- Scrolling Nav JavaScript -->
+    <!-- Scrolling Nav JavaScript -->
+    <!-- <script src="js/lib/jquery.easing.min.js"></script> -->
+    <!-- <script src="js/lib/scrolling-nav.js"></script> -->
+
+</body>
+
+</html>

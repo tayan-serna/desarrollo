@@ -1,0 +1,35 @@
+.logo-top{
+	  padding: 5px 15px;
+}
+.logo-top em {
+	font-size: 13.4px;
+}
+.logos-convenios{
+	display: inline-block;
+}
+.mg-tp-2em{
+	margin-top: 2em;
+}
+.pd-bienestar{
+	padding-top: 4em;
+}
+
+.ng-invalid{
+	border-color: red; 
+}
+.ng-valid .ng-dirty{
+	border-color: green; 
+}
+.disp-inli-bl{
+	display: inline-block;
+}
+.txt-al-cnt{
+	text-align: center;
+}
+
+
+@media(min-width:1000px){
+		.pd-bienestar{
+			padding-top: 8em;
+		}
+	}
